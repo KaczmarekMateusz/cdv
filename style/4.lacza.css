@@ -5,3 +5,7 @@ body{
 .link{
   background-color: aqua;
 }
+#flaga
+{
+  list-style: none;
+}
