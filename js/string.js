@@ -55,7 +55,7 @@ function wyswietl()
   nazwisko=nazwisko.charAt(0).toUpperCase() + nazwisko.slice(1).toLowerCase();
   if(nazwisko.length >15)
   {
-    nazwisko=imie.substr(0,15);
+    nazwisko=nazwisko.substr(0,15);
   }
 
   let tek= `Imię ograniczone do 15 znakow: <span id="kom">${imie}</span>`;
