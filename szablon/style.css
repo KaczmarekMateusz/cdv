@@ -49,6 +49,9 @@ body
 .about
 {
   padding: 40px 0;
+  overflow: hidden;
+  background: url('./image/xs.png');
+  background-size: cover;
 }
 
 .content
@@ -74,4 +77,78 @@ body
   overflow: hidden;
   margin: 0 1%;
   color: rgb(33, 37, 43);
+}
+
+.col h3
+{
+  text-transform: uppercase;
+  text-size: 14px;
+}
+
+.portfolio{
+  background-color: rgb(33, 37, 43);
+  padding: 40px 0px;
+  color: white;
+
+}
+
+.portfolio h2
+{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.work ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.work ul li{
+  display: inline;
+  margin-right: 15px;
+
+}
+
+.work ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  padding: 3px 0;
+}
+
+.work ul li a:hover
+{
+  border-bottom: 2px solid rgb(0, 162, 232);
+}
+
+.col img{
+  width: 100%;
+}
+
+.col h3
+{
+  text-align: center;
+  margin: 0;
+
+}
+.col h3 a
+{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.col a{
+  text-align: center;
+  text-decoration: none;
+  color: #813BAA;
+  display: block;
+  margin-bottom: 30px;
+
 }
